@@ -9,20 +9,23 @@ for(var i = 1 ; i <=4; i++){
   figura.classList.add("img-panda");
   var img = document.createElement("img");
   img.classList.add("img-box");
-  
-
+  var span = document.createElement("span");
+  span.innerHTML="X";
+  span.setAttribute("id","close")
   img.setAttribute("src", "assets/img/"+i+".jpg");
 
+
+
  figura.appendChild(img);
+ figura.appendChild(span);
  creandoDiv.appendChild(figura);
  imagenes.appendChild(creandoDiv);
-}
 
-/*
-var quitar = document.getElementById("quitar");
-var close= document.getElementById('close');
+}
+var close = document.getElementById("close");
 close.addEventListener("click",function(){
-   document.getElementsByTagName("img")[1].style.display="none";*/
+   document.getElementsByTagName("img")[0].style.display="none";
+});
 //Poniendo imagenes
 var put = document.getElementById("put");
 put.addEventListener("click", function(){
