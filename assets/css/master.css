@@ -13,7 +13,7 @@ nav {
   padding-top: 20px;
 }
 a{
-  color: white;
+  color:#9fa670;
   margin-left: 20px;
 }
 a:hover{
@@ -54,8 +54,8 @@ button {
     outline-color: #9fa670; /* cambia borde de boton*/
 }
 p{
-    color: white;
-    display: inline-block;
+    color: #9fa670;
+    display: inline-flex; /* acomodars a diferentes tamaños de pantallas*/
     width: 550px;
     text-align: justify;
     margin-left: 120px;
