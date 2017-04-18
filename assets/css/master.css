@@ -68,3 +68,10 @@ p{
 .show-text {
   visibility: hidden;
 }
+footer{
+  text-align: center;
+  height: 30px;
+  background-color: #ca3c25 ;
+  color: white;
+
+}
