@@ -51,6 +51,7 @@ button {
     border: none;
     width: 300px;
     font-size: 15px;
+    outline-color: #9fa670; /* cambia borde de boton*/
 }
 p{
     color: white;
