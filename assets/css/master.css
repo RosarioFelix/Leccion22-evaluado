@@ -2,6 +2,7 @@ body{
   font-family: "Acme";
   margin: 0 auto;
   background-color: #1d1a05 ;
+  min-height: 100%;
 }
 header{
   height: 80px;
@@ -28,6 +29,7 @@ a:hover{
     margin-top: 20px;
     margin-left: 120px;
     margin-bottom: 20px;
+    position: relative;
     }
 .enlace{
   position: absolute;
@@ -69,8 +71,11 @@ p{
   visibility: hidden;
 }
 footer{
+  position: absolute;
   text-align: center;
-  height: 30px;
+  width: 100%;
+  top: 800px;
+  height: 50px;
   background-color: #ca3c25 ;
   color: white;
 
